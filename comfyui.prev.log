@@ -1,0 +1,327 @@
+** ComfyUI startup time: 2024-03-21 11:35:21.425528
+[2024-03-21 11:35] ** Platform: Darwin
+[2024-03-21 11:35] ** Python version: 3.11.4 (main, Jul  5 2023, 08:40:20) [Clang 14.0.6 ]
+[2024-03-21 11:35] ** Python executable: /Users/aomolewa/miniconda3/bin/python
+[2024-03-21 11:35] ** Log path: /Users/aomolewa/Desktop/Projects/ComfyUI/comfyui.log
+[2024-03-21 11:35] 
+Prestartup times for custom nodes:
+[2024-03-21 11:35]    0.0 seconds: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-21 11:35] 
+Total VRAM 32768 MB, total RAM 32768 MB
+[2024-03-21 11:35] Forcing FP16.
+[2024-03-21 11:35] Set vram state to: SHARED
+[2024-03-21 11:35] Device: mps
+[2024-03-21 11:35] VAE dtype: torch.float32
+[2024-03-21 11:35] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-03-21 11:35] ### Loading: ComfyUI-Manager (V2.10.2)
+[2024-03-21 11:35] ### ComfyUI Revision: 2074 [d14bdb18] | Released on '2024-03-19'
+[2024-03-21 11:35] 
+Import times for custom nodes:
+[2024-03-21 11:35]    0.0 seconds: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-03-21 11:35]    0.1 seconds: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-03-21 11:35]    0.1 seconds: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-03-21 11:35] 
+[2024-03-21 11:35] Starting server
+
+[2024-03-21 11:35] To see the GUI go to: http://127.0.0.1:8188
+[2024-03-21 11:35] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-03-21 11:35] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-03-21 11:35] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-03-21 11:35] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-03-21 11:35] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-03-21 11:36] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-03-21 11:38] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-03-21 11:42] Update ComfyUI
+[2024-03-21 11:42] Install: pip packages
+[2024-03-21 11:42] [ComfyUI-Manager] skip black listed pip installation: 'torch'
+[2024-03-21 11:42] [ComfyUI-Manager] skip black listed pip installation: 'torchsde'
+[2024-03-21 11:42] [ComfyUI-Manager] skip black listed pip installation: 'torchvision'
+[2024-03-21 11:42] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'einops']
+[2024-03-21 11:42]  
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'transformers>=4.25.1']
+[2024-03-21 11:42]                  
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'safetensors>=0.3.0']
+[2024-03-21 11:42]  
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'aiohttp']
+[2024-03-21 11:42]        
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'pyyaml']
+[2024-03-21 11:42]  
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'Pillow']
+[2024-03-21 11:42]  
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'scipy']
+[2024-03-21 11:42]   
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'tqdm']
+[2024-03-21 11:42]  
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'psutil']
+[2024-03-21 11:42]  
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'kornia>=0.7.1']
+[2024-03-21 11:42]             FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-21 11:42] Start fetching...[2KFetching: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager[2KFetching: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus[2KFetching: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI_essentials[2KFetching done.
+[2024-03-21 11:42] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-21 11:42] Start updating...[2KUpdating: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager[2KUpdating: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus[2KUpdating: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI_essentials[2KAll extensions are already up-to-date.
+[2024-03-21 11:42] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/4245046894_model-list.json
+[2024-03-21 11:42] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-21 11:42] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-03-21 11:42] Install custom node 'ComfyUI Inspire Pack'
+[2024-03-21 11:42] install: ['https://github.com/ltdrdata/ComfyUI-Inspire-Pack']
+[2024-03-21 11:42] Download: git clone 'https://github.com/ltdrdata/ComfyUI-Inspire-Pack'
+[2024-03-21 11:42] 0it [00:00, ?it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 332.0/332.0 [00:00<00:00, 504.00it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 332.0/332.0 [00:00<00:00, 503.79it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 76.0/76.0 [00:00<00:00, 110.16it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 76.0/76.0 [00:00<00:00, 110.12it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 911.0/911.0 [00:00<00:00, 1122.21it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 911.0/911.0 [00:00<00:00, 1121.73it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 654.0/654.0 [00:00<00:00, 785.63it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 654.0/654.0 [00:00<00:00, 785.47it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 654.0/654.0 [00:00<00:00, 728.42it/s]
+[2024-03-21 11:43] Install: pip packages
+[2024-03-21 11:43] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'matplotlib']
+[2024-03-21 11:43]            
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'cachetools']
+[2024-03-21 11:43]  Installation was successful.
+[2024-03-21 11:43] After restarting ComfyUI, please refresh the browser.
+[2024-03-21 11:43] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-21 11:43] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-03-21 11:43] Install custom node 'ComfyUI Impact Pack'
+[2024-03-21 11:43] install: ['https://github.com/ltdrdata/ComfyUI-Impact-Pack']
+[2024-03-21 11:43] Download: git clone 'https://github.com/ltdrdata/ComfyUI-Impact-Pack'
+[2024-03-21 11:43] 0it [00:00, ?it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1303.0/1303.0 [00:00<00:00, 2974.42it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1303.0/1303.0 [00:00<00:00, 2972.56it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 376.0/376.0 [00:00<00:00, 773.00it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 376.0/376.0 [00:00<00:00, 772.65it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3760.0/3760.0 [00:02<00:00, 1560.54it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3760.0/3760.0 [00:02<00:00, 1560.37it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2512.0/2512.0 [00:02<00:00, 1027.80it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2512.0/2512.0 [00:02<00:00, 1027.76it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2512.0/2512.0 [00:02<00:00, 1002.98it/s]
+[2024-03-21 11:43] Install: pip packages
+[2024-03-21 11:43] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'segment-anything']
+[2024-03-21 11:43]  Collecting segment-anything
+[2024-03-21 11:43]    Downloading segment_anything-1.0-py3-none-any.whl (36 kB)
+[2024-03-21 11:43]  Installing collected packages: segment-anything
+[2024-03-21 11:43]  Successfully installed segment-anything-1.0
+[2024-03-21 11:43] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'scikit-image']
+[2024-03-21 11:43]  Collecting scikit-image
+[2024-03-21 11:43]    Downloading scikit_image-0.22.0-cp311-cp311-macosx_12_0_arm64.whl (13.3 MB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 27.0 MB/s eta 0:00:00
+[2024-03-21 11:43]      Collecting imageio>=2.27 (from scikit-image)
+[2024-03-21 11:43]    Downloading imageio-2.34.0-py3-none-any.whl (313 kB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 313.4/313.4 kB 18.5 MB/s eta 0:00:00
+[2024-03-21 11:43]  Collecting tifffile>=2022.8.12 (from scikit-image)
+[2024-03-21 11:43]    Downloading tifffile-2024.2.12-py3-none-any.whl (224 kB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 kB 12.8 MB/s eta 0:00:00
+[2024-03-21 11:43]   Collecting lazy_loader>=0.3 (from scikit-image)
+[2024-03-21 11:43]    Downloading lazy_loader-0.3-py3-none-any.whl (9.1 kB)
+[2024-03-21 11:43]  Installing collected packages: tifffile, lazy_loader, imageio, scikit-image
+[2024-03-21 11:43]  Successfully installed imageio-2.34.0 lazy_loader-0.3 scikit-image-0.22.0 tifffile-2024.2.12
+[2024-03-21 11:43] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'piexif']
+[2024-03-21 11:43]  Collecting piexif
+[2024-03-21 11:43]    Downloading piexif-1.1.3-py2.py3-none-any.whl (20 kB)
+[2024-03-21 11:43]  Installing collected packages: piexif
+[2024-03-21 11:43]  Successfully installed piexif-1.1.3
+[2024-03-21 11:43] [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+[2024-03-21 11:43] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'opencv-python-headless']
+[2024-03-21 11:43]  Collecting opencv-python-headless
+[2024-03-21 11:43]    Downloading opencv_python_headless-4.9.0.80-cp37-abi3-macosx_11_0_arm64.whl (35.4 MB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.4/35.4 MB 30.3 MB/s eta 0:00:00
+[2024-03-21 11:43]   Installing collected packages: opencv-python-headless
+[2024-03-21 11:43]  Successfully installed opencv-python-headless-4.9.0.80
+[2024-03-21 11:43] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'GitPython']
+[2024-03-21 11:43]    
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'scipy>=1.11.4']
+[2024-03-21 11:43]   Install: install script
+[2024-03-21 11:43] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', 'install.py']
+[2024-03-21 11:43] [!] 
+[2024-03-21 11:43] 100%|██████████| 52026019/52026019 [00:01<00:00, 37685758.37it/s]
+[2024-03-21 11:43] [!] 
+[2024-03-21 11:43] 100%|██████████| 22507707/22507707 [00:00<00:00, 29991713.09it/s]
+[2024-03-21 11:43] [!] 
+[2024-03-21 11:43] 100%|██████████| 54827683/54827683 [00:01<00:00, 33442295.24it/s]
+[2024-03-21 11:43] [2024-03-21 11:43] [!] 
+[2024-03-21 11:43]  ### ComfyUI-Impact-Pack: Check dependencies
+[2024-03-21 11:43]  ### ComfyUI-Impact-Pack: Updating subpack
+[2024-03-21 11:43]  [Impact Pack] EXECUTE: ['/Users/aomolewa/miniconda3/bin/python', 'install.py'] in '/Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-03-21 11:43]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/f02b8a23e6f12bd2c1b1f6714f66f984c728fa41ed749d033e7d6dea511ef70c?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27face_yolov8m.pt%3B+filename%3D%22face_yolov8m.pt%22%3B&Expires=1711298178&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxMTI5ODE3OH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlL2YwMmI4YTIzZTZmMTJiZDJjMWIxZjY3MTRmNjZmOTg0YzcyOGZhNDFlZDc0OWQwMzNlN2Q2ZGVhNTExZWY3MGM%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=VmbFpLytXu-uDSthhstmdf9WvR0FEpktPcL2atZ%7EJhMi8i1AbBcEiPtlZd4oq38NXMQ2wlbyhsNYuDACcbGMHT43ExeB8UmcwRU6PIMYpw3n0boOYkEZ-itj%7E2Kesiykh1OuFUqFC7nOGJUIPvZYLrY8BN%7EVzxzK8M3DtVJVYLELJyD43CHem0tA96yaxR%7EmeFpTE0WH1qS%7El2qLxQiM12JR%7E0FnS50EJPP-WjrEbuscFcU8ycLX5DCPfX1mkp09aOYZDw4xcnIe587tGsIzsaZ3EuSiYGQFCsHuRKwNx-Fi5rFOBCNJPyrBSjMqx%7EOSwYiTKZszNxqlduO0BS7Hkw__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/aomolewa/Desktop/Projects/ComfyUI/models/ultralytics/bbox/face_yolov8m.pt
+[2024-03-21 11:43]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/5c4faf8d17286ace2c3d3346c6d0d4a0c8d62404955263a7ae95c1dd7eb877af?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27hand_yolov8s.pt%3B+filename%3D%22hand_yolov8s.pt%22%3B&Expires=1711296070&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxMTI5NjA3MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlLzVjNGZhZjhkMTcyODZhY2UyYzNkMzM0NmM2ZDBkNGEwYzhkNjI0MDQ5NTUyNjNhN2FlOTVjMWRkN2ViODc3YWY%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=VjYURiHhmGl-Z2lRqkl9XHsbjIyZG2PJZ22NqPZ86iYdDZTmSAFZwzyykrmQoqSti1whe7Ren0xycmopQvQxwCWXRz%7Edpz5uaHPl5gwd9uq5QnuWAK2g8I7-TGr9KD%7EBvkMvl6E9yKDT62ljdT9ycRObPJZSAJ9LouOpoLN4DZ5XWZJP6zG6VhFQTejM1hdgk6eU7BCciCHSM%7Ep1wyKNaSKXwc43ogS0pWXghn6qnsbajSyVh6JXb5k%7E%7ELEfk2mgBLilWef4aLvgXgO%7EQpkAz4zVAl8gZf0UEUJ1TsvmHk7JC2rREuivCSAkbTSx582ivT5IwkHtvD-XHLC8ZQpKjw__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/aomolewa/Desktop/Projects/ComfyUI/models/ultralytics/bbox/hand_yolov8s.pt
+[2024-03-21 11:43]  Downloading https://cdn-lfs.huggingface.co/repos/0d/db/0ddb8d3fcb6ee9737d9dd7e090e6c6cb6e40728d12307180160e7f654cb345de/9d881ec50b831f546e37977081b18f4e3bf65664aec163f97a311b0955499795?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27person_yolov8m-seg.pt%3B+filename%3D%22person_yolov8m-seg.pt%22%3B&Expires=1711296984&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcxMTI5Njk4NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8wZC9kYi8wZGRiOGQzZmNiNmVlOTczN2Q5ZGQ3ZTA5MGU2YzZjYjZlNDA3MjhkMTIzMDcxODAxNjBlN2Y2NTRjYjM0NWRlLzlkODgxZWM1MGI4MzFmNTQ2ZTM3OTc3MDgxYjE4ZjRlM2JmNjU2NjRhZWMxNjNmOTdhMzExYjA5NTU0OTk3OTU%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=f6qAoQq9C8uSXm2wgGkPNRLy2pP058aRgdq80jlK6pyFWSPngr10LvUK1dHgZbP48jUyK9%7E%7EaE3vxSq21Tviqo2pKcD%7EAFE7QNJCq2CbiB2ixYbQQINZDU-aiouDeRjquR3zSfVrlf0VpwPzY3qrYHenAg7x99wUlCqGNCCWCSHtKfLdW-YcKKoBZ8nCMopdLjcvglVSv8%7EbTB-ONnj3R73xybdPO%7Ei4-2%7EF5QMrZHStA9XW%7EgsuywBzb2gVFq0BJ5Ow7aQKJ5wBtERBBzmAEf-Bj86P057e2kkTLV1DabZfZEd0ki%7EWJJlD%7EolPuEAaB5Z-hea6ILOuviq6Zk-tXA__&Key-Pair-Id=KVTP0A1DKRTAX to /Users/aomolewa/Desktop/Projects/ComfyUI/models/ultralytics/segm/person_yolov8m-seg.pt
+[2024-03-21 11:43]  req_path: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-03-21 11:43]  [Impact Pack] EXECUTE: ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', '-r', 'requirements.txt'] in '/Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-03-21 11:43]  Collecting ultralytics!=8.0.177 (from -r requirements.txt (line 1))
+[2024-03-21 11:43]    Downloading ultralytics-8.1.30-py3-none-any.whl (722 kB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 722.0/722.0 kB 4.2 MB/s eta 0:00:00
+[2024-03-21 11:43]            Collecting py-cpuinfo (from ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-03-21 11:43]    Downloading py_cpuinfo-9.0.0-py3-none-any.whl (22 kB)
+[2024-03-21 11:43]  Collecting thop>=0.1.1 (from ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-03-21 11:43]    Downloading thop-0.1.1.post2209072238-py3-none-any.whl (15 kB)
+[2024-03-21 11:43]  Collecting pandas>=1.1.4 (from ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-03-21 11:43]    Downloading pandas-2.2.1-cp311-cp311-macosx_11_0_arm64.whl (11.3 MB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 19.6 MB/s eta 0:00:00
+[2024-03-21 11:43]  Collecting seaborn>=0.11.0 (from ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-03-21 11:43]    Downloading seaborn-0.13.2-py3-none-any.whl (294 kB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.9/294.9 kB 19.3 MB/s eta 0:00:00
+[2024-03-21 11:43]          Collecting pytz>=2020.1 (from pandas>=1.1.4->ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-03-21 11:43]    Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 505.5/505.5 kB 19.9 MB/s eta 0:00:00
+[2024-03-21 11:43]  Collecting tzdata>=2022.7 (from pandas>=1.1.4->ultralytics!=8.0.177->-r requirements.txt (line 1))
+[2024-03-21 11:43]    Downloading tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+[2024-03-21 11:43]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 345.4/345.4 kB 18.6 MB/s eta 0:00:00
+[2024-03-21 11:43]               Installing collected packages: pytz, py-cpuinfo, tzdata, pandas, thop, seaborn, ultralytics
+[2024-03-21 11:43]  Successfully installed pandas-2.2.1 py-cpuinfo-9.0.0 pytz-2024.1 seaborn-0.13.2 thop-0.1.1.post2209072238 tzdata-2024.1 ultralytics-8.1.30
+[2024-03-21 11:43]  req_path: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-03-21 11:43]  [Impact Pack] EXECUTE: ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', '-r', 'requirements.txt'] in '/Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-03-21 11:43]                                        req_path: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/requirements.txt
+[2024-03-21 11:43]  ### ComfyUI-Impact-Pack: Check basic models
+[2024-03-21 11:43]  Downloading https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth to /Users/aomolewa/Desktop/Projects/ComfyUI/models/sams/sam_vit_b_01ec64.pth
+[2024-03-21 11:43] 100%|██████████| 375042383/375042383 [00:09<00:00, 39910727.36it/s]
+[2024-03-21 11:44]  ### ComfyUI-Impact-Pack: onnx model directory created (/Users/aomolewa/Desktop/Projects/ComfyUI/models/onnx)
+[2024-03-21 11:44] Installation was successful.
+[2024-03-21 11:44] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'ultralytics']
+[2024-03-21 11:44]                                       After restarting ComfyUI, please refresh the browser.
+[2024-03-21 11:44] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-21 11:44] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-03-21 11:45] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-03-21 11:47] Update ComfyUI
+[2024-03-21 11:49] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+got prompt
+[2024-03-21 12:24] model_type EPS
+[2024-03-21 12:24] Using split attention in VAE
+[2024-03-21 12:24] Using split attention in VAE
+[2024-03-21 12:24] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-21 12:24] Requested to load SD1ClipModel
+[2024-03-21 12:24] Loading 1 new model
+[2024-03-21 12:24] Requested to load BaseModel
+[2024-03-21 12:24] Loading 1 new model
+[2024-03-21 12:24] /Users/aomolewa/miniconda3/lib/python3.11/site-packages/torchsde/_brownian/brownian_interval.py:608: UserWarning: Should have tb<=t1 but got tb=14.614643096923828 and t1=14.614643.
+  warnings.warn(f"Should have {tb_name}<=t1 but got {tb_name}={tb} and t1={self._end}.")
+[2024-03-21 12:24] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:15<00:00,  2.81it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:15<00:00,  2.53it/s]
+[2024-03-21 12:24] Using split attention in VAE
+[2024-03-21 12:24] Using split attention in VAE
+[2024-03-21 12:24] Requested to load AutoencoderKL
+[2024-03-21 12:24] Loading 1 new model
+[2024-03-21 12:24] Prompt executed in 19.01 seconds
+[2024-03-21 12:25] got prompt
+[2024-03-21 12:25] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:28<00:00,  1.52it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:28<00:00,  1.40it/s]
+[2024-03-21 12:25] Prompt executed in 29.41 seconds
+[2024-03-21 12:26] got prompt
+[2024-03-21 12:26] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.52it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.46it/s]
+[2024-03-21 12:26] Prompt executed in 28.30 seconds
+[2024-03-21 12:27] got prompt
+[2024-03-21 12:27] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.52it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.47it/s]
+[2024-03-21 12:27] Prompt executed in 28.02 seconds
+[2024-03-21 12:28] got prompt
+[2024-03-21 12:28] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.52it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.47it/s]
+[2024-03-21 12:28] Prompt executed in 27.95 seconds
+[2024-03-21 12:29] got prompt
+[2024-03-21 12:29] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.51it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.47it/s]
+[2024-03-21 12:29] Prompt executed in 27.88 seconds
+[2024-03-21 12:29] got prompt
+[2024-03-21 12:30] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.47it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:27<00:00,  1.47it/s]
+[2024-03-21 12:30] Prompt executed in 28.05 seconds
+[2024-03-21 12:59] got prompt
+[2024-03-21 12:59] Failed to validate prompt for output 81:
+[2024-03-21 12:59] * KSampler 75:
+[2024-03-21 12:59]   - Required input is missing: model
+[2024-03-21 12:59] Output will be ignored
+[2024-03-21 12:59] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-03-21 13:00] got prompt
+[2024-03-21 13:00] Failed to validate prompt for output 81:
+[2024-03-21 13:00] * KSampler 75:
+[2024-03-21 13:00]   - Required input is missing: model
+[2024-03-21 13:00] Output will be ignored
+[2024-03-21 13:00] invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+[2024-03-21 13:01] got prompt
+[2024-03-21 13:01] Requested to load CLIPVisionModelProjection
+[2024-03-21 13:01] Loading 1 new model
+[2024-03-21 13:02] Requested to load BaseModel
+[2024-03-21 13:02] Loading 1 new model
+[2024-03-21 13:02] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:30<00:00,  1.38it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:30<00:00,  1.31it/s]
+[2024-03-21 13:02] Requested to load AutoencoderKL
+[2024-03-21 13:02] Loading 1 new model
+[2024-03-21 13:02] Prompt executed in 37.42 seconds
+[2024-03-21 13:03] got prompt
+[2024-03-21 13:03] model_type EPS
+[2024-03-21 13:03] Using split attention in VAE
+[2024-03-21 13:03] Using split attention in VAE
+[2024-03-21 13:03] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-21 13:03] Requested to load SD1ClipModel
+[2024-03-21 13:03] Loading 1 new model
+[2024-03-21 13:03] Requested to load BaseModel
+[2024-03-21 13:03] Loading 1 new model
+[2024-03-21 13:03] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:30<00:00,  1.35it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:30<00:00,  1.30it/s]
+[2024-03-21 13:03] Requested to load AutoencoderKL
+[2024-03-21 13:03] Loading 1 new model
+[2024-03-21 13:03] Prompt executed in 36.82 seconds
+[2024-03-21 13:04] got prompt
+[2024-03-21 13:04] model_type EPS
+[2024-03-21 13:04] Using split attention in VAE
+[2024-03-21 13:04] Using split attention in VAE
+[2024-03-21 13:04] clip missing: ['clip_l.logit_scale', 'clip_l.transformer.text_projection.weight']
+[2024-03-21 13:04] Requested to load SD1ClipModel
+[2024-03-21 13:04] Loading 1 new model
+[2024-03-21 13:04] Requested to load BaseModel
+[2024-03-21 13:04] Loading 1 new model
+[2024-03-21 13:04] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.37it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.31it/s]
+[2024-03-21 13:04] Requested to load AutoencoderKL
+[2024-03-21 13:04] Loading 1 new model
+[2024-03-21 13:04] Prompt executed in 28.45 seconds
+[2024-03-21 13:05] got prompt
+[2024-03-21 13:05] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.37it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.30it/s]
+[2024-03-21 13:05] Prompt executed in 23.72 seconds
+[2024-03-21 13:06] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+[2024-03-21 13:14] got prompt
+[2024-03-21 13:14] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.39it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.32it/s]
+[2024-03-21 13:14] Requested to load AutoencoderKL
+[2024-03-21 13:14] Loading 1 new model
+[2024-03-21 13:14] Prompt executed in 24.48 seconds
+[2024-03-21 13:15] got prompt
+[2024-03-21 13:15] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.40it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.34it/s]
+[2024-03-21 13:15] Prompt executed in 23.32 seconds
+[2024-03-21 13:16] got prompt
+[2024-03-21 13:16] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.41it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.35it/s]
+[2024-03-21 13:16] Prompt executed in 23.20 seconds
+[2024-03-21 13:17] got prompt
+[2024-03-21 13:17] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.41it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.34it/s]
+[2024-03-21 13:17] Prompt executed in 23.30 seconds
+[2024-03-21 13:18] got prompt
+[2024-03-21 13:18] Requested to load BaseModel
+[2024-03-21 13:18] Loading 1 new model
+[2024-03-21 13:18] 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.40it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 30/30 [00:22<00:00,  1.34it/s]
+[2024-03-21 13:18] Requested to load AutoencoderKL
+[2024-03-21 13:18] Loading 1 new model
+[2024-03-21 13:18] Prompt executed in 25.85 seconds
+[2024-03-21 13:22] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-21 13:22] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
+[2024-03-21 13:22] Install custom node 'ComfyUI_SDXL_DreamBooth_LoRA_CustomNodes'
+[2024-03-21 13:22] install: ['https://github.com/komojini/ComfyUI_SDXL_DreamBooth_LoRA_CustomNodes']
+[2024-03-21 13:22] Download: git clone 'https://github.com/komojini/ComfyUI_SDXL_DreamBooth_LoRA_CustomNodes'
+[2024-03-21 13:22] 0it [00:00, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94.0/94.0 [00:00<00:00, 176.51it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94.0/94.0 [00:00<00:00, 176.40it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 63.0/63.0 [00:00<00:00, 116.09it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 63.0/63.0 [00:00<00:00, 116.05it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94.0/94.0 [00:00<00:00, 163.32it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 94.0/94.0 [00:00<00:00, 163.27it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 54.0/54.0 [00:00<00:00, 93.11it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 54.0/54.0 [00:00<00:00, 93.09it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 54.0/54.0 [00:00<00:00, 78.12it/s]
+[2024-03-21 13:22] Install: pip packages
+[2024-03-21 13:22] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'boto3']
+[2024-03-21 13:22]  Collecting boto3
+[2024-03-21 13:22]    Downloading boto3-1.34.67-py3-none-any.whl (139 kB)
+[2024-03-21 13:22]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.3/139.3 kB 1.4 MB/s eta 0:00:00
+[2024-03-21 13:22]  Collecting botocore<1.35.0,>=1.34.67 (from boto3)
+[2024-03-21 13:22]    Downloading botocore-1.34.67-py3-none-any.whl (12.0 MB)
+[2024-03-21 13:22]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 32.0 MB/s eta 0:00:00
+[2024-03-21 13:22]  Collecting jmespath<2.0.0,>=0.7.1 (from boto3)
+[2024-03-21 13:22]    Downloading jmespath-1.0.1-py3-none-any.whl (20 kB)
+[2024-03-21 13:22]  Collecting s3transfer<0.11.0,>=0.10.0 (from boto3)
+[2024-03-21 13:22]    Downloading s3transfer-0.10.1-py3-none-any.whl (82 kB)
+[2024-03-21 13:22]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.2/82.2 kB 8.8 MB/s eta 0:00:00
+[2024-03-21 13:22]     Installing collected packages: jmespath, botocore, s3transfer, boto3
+[2024-03-21 13:22]  Successfully installed boto3-1.34.67 botocore-1.34.67 jmespath-1.0.1 s3transfer-0.10.1
+[2024-03-21 13:22] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'gdown']
+[2024-03-21 13:22]  Collecting gdown
+[2024-03-21 13:22]    Downloading gdown-5.1.0-py3-none-any.whl (17 kB)
+[2024-03-21 13:22]  Collecting beautifulsoup4 (from gdown)
+[2024-03-21 13:22]    Downloading beautifulsoup4-4.12.3-py3-none-any.whl (147 kB)
+[2024-03-21 13:22]       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.9/147.9 kB 1.8 MB/s eta 0:00:00
+[2024-03-21 13:22]     Collecting soupsieve>1.2 (from beautifulsoup4->gdown)
+[2024-03-21 13:22]    Downloading soupsieve-2.5-py3-none-any.whl (36 kB)
+[2024-03-21 13:22]       Installing collected packages: soupsieve, beautifulsoup4, gdown
+[2024-03-21 13:22]  Successfully installed beautifulsoup4-4.12.3 gdown-5.1.0 soupsieve-2.5
+[2024-03-21 13:22] 
+## ComfyUI-Manager: EXECUTE => ['/Users/aomolewa/miniconda3/bin/python', '-m', 'pip', 'install', 'python-dotenv']
+[2024-03-21 13:22]  Collecting python-dotenv
+[2024-03-21 13:22]    Downloading python_dotenv-1.0.1-py3-none-any.whl (19 kB)
+[2024-03-21 13:22]  Installing collected packages: python-dotenv
+[2024-03-21 13:22]  Successfully installed python-dotenv-1.0.1
+[2024-03-21 13:22] Installation was successful.
+[2024-03-21 13:22] After restarting ComfyUI, please refresh the browser.
+[2024-03-21 13:22] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json
+[2024-03-21 13:22] FETCH DATA from: /Users/aomolewa/Desktop/Projects/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1742899825_extension-node-map.json
